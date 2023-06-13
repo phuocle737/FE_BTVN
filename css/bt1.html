@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin: auto;
+            text-align: center;
+            color: black;
+        }
+        form div{
+            margin-bottom: 10 px;
+        }
+        form
+        button{
+            margin: auto;
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+   <h1>Thông tin nhân viên</h1>
+    <div class="body">
+        <label for="hovaten">Họ và tên:</label>
+        <input type="text" name="hovaten" id="hovaten"> 
+        <label for="vitrilamviec">Vị trí làm việc:</label>  
+        <input type="text" name="vitrilamviec" id="vitrilamviec"> 
+        <label for="mucluonglamviec">Mức lương làm việc:</label>
+        <input type="text" name="mucluonglamviec" id="mucluonglamviec">
+        <label for="">Giới tính:</label>
+        <label for="Nam"> Nam:</label>
+        <input type="radio" value="Nam" name="Giới tính" id="Nam"/>
+        <label for="Nữ">Nữ:</label>
+        <input type="radio" value="Nữ" name="Giới tính" id="Nữ"/> 
+    </div>
+    <div class="button">
+       <button onclick="lưu()">Lưu</button>
+    </div>
+</body>
+</html>

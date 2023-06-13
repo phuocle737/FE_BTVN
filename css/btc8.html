@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        border:  1px sloid black;
+    }
+    .container .header .logo>img{
+        width: 10%;
+        margin: 15px;
+        float: left;
+
+    }
+    .container .header .title_header>h3{
+      font-size: 2.5em;
+      padding-top: 35px;
+    }
+    .container .header .title_header>h4{
+        font-size: 1em;
+    }
+    .container #nav_menu ul{
+        list-style-type: none;
+        margin : 1em;
+        clear: both;
+    }
+    .container #nav_menu ul li{
+        margin-top: .5em;
+        margin-bottom: .5em;
+        float: left;
+        width: 20%;
+        background-color: antiquewhite;
+    }
+    .container #nav_menu ul li a{
+        text-align: center;
+        display: block;
+        width: 150px;
+        padding: 1em 0;
+        text-decoration: none;
+       font-weight: bold;
+        color:black;    
+    }
+    .container .main .content_left{
+        margin:  5px 14px;
+        padding: 5px;
+        width: 62%;
+        box-sizing: border-box;
+        float: left;
+        border: 1px solid beige;
+        background-color: beige;
+        clear: both;
+    }
+
+    .container .main .content_right{
+        margin: 5px 14px;
+        padding: 5px;
+        width: 35%;
+        box-sizing: border-box;
+        border: 1px solid beige;
+        float: right;
+        background-color: beige;
+    }
+    .container .main .content_right ul{
+        margin: 15px;
+    }
+    #mobile_menu{
+        display: none;
+    }
+  @media screen and (max-width:1024px){
+    #nav_menu {display: none;}
+    #mobile_menu{display: block;}
+    .slicknav_menu{background-color: aqua !important;}
+    body{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .container .header{
+        text-align: center;
+    }
+    .container .header .title_header>h3{
+        font-size: 1.5em;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .container .header .title_header>h4{
+        font-size: 1em ;
+        margin-left: 0;
+        padding-bottom: 10px;
+    }
+    .container .header .logo>img{
+        float: none;
+    }
+    .container .main .content_left{
+        width: 95%;
+        float: none;
+        margin-right: 2%;
+        padding-left: 0;
+    }
+    .container .main .content_left>img{
+        float: left;
+        width: 50%;     
+    }
+    .container .main .content_right{
+        width: 95%;
+        float: none;
+        margin: 0 2% 2% 2%;
+        clear: both;
+    }
+  }
+  @media screen and (max-width:720px) {
+    .container .header .title_header>h3{
+        font-size: 1.2em;
+    }
+    .container .header .title_header>h4{
+        font-size: .8em;
+    }
+    .container .content_left ,.content_right{
+        font-size: .8em;
+    }
+    .container .main .content_left>img{
+        float: none;
+        width: 100%; 
+  }}
+</style>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="/img/iviettech.png" alt="">
+        </div>
+        <div class="title_header">
+            <h3>San Joaquin Valley Town Hall</h3>
+            <h4> Bringing cutting-edge speakers to the valley</h4>
+       </div>
+        </div>
+        <div class="main">
+            <nav id="mobile_menu"></nav>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Speakers</a></li>
+                    <li><a href="">Get tickers</a></li>
+                    <li><a href="">Become a member</a></li>
+                    <li><a href="">A bout Us</a></li> 
+                </ul>
+        </nav>
+        <div class="content_left">
+            <h3>Fossil Threadin the web of Life</h3>
+            <img src="/img/Codegym-bob-RIGHTxWH200.png" alt="">
+            <p>
+                What's 75 million years old and brand spanking new? A teenage Utahceratop! .....
+            </p>
+        </div>
+        <div class="content_right">
+            <h3>This season's guest speaker</h3>
+            <ul>
+                <li>October : Jeffrey</li>
+                <li>November: Andrew</li>
+                <li>january: Amy</li>
+                <li>February: Scott</li>
+                <li>March: Carlos</li>
+                <li>April: Ronan</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 70vw;
+        margin: 20px auto;
+    }
+    .container .header{
+        background-image: url(/img/a.jpg);
+        position: relative;
+        border-radius: 5px;
+        height: 25vh;
+    }
+    .container .header .title{
+        position: absolute;
+        color: white;
+        bottom: 10px;
+        left: 10px;
+        
+    }
+    .container .header .icon_i{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    
+    }
+    .container .main .left {
+        float: left;
+        width: 20%;
+        box-sizing: border-box;
+        margin-top: 1em;
+        padding-right: 1.3em;
+
+    }
+    .container .main .left .content_left{
+        border: 1px solid silver;
+        border-radius: 4px;
+        padding: 1em;
+        margin-bottom: 1.2em;
+
+    }
+    .container .main .left .meeting_info .top {
+        position: relative;
+        margin-bottom: .6em;
+    }
+    .container .main .left .meeting_info .top>img{
+        position: absolute;
+        left:0px;
+        top: 1px;
+    }
+    .container .main .left .meeting_info .top .icon_meet img {
+        width: 100%;
+        max-width: 20px;
+    }
+    .container .main .left .meeting_info .top .icon_meet span{
+        vertical-align: super;
+        font-size: .8em;
+
+    }
+    .container .main .left .meeting_info .button button{
+        background-color: blue;
+        color: white;
+        border: unset;
+        border-radius: 4px;
+        width: 100%;
+    }
+</style>
+<body>
+   <div class="container">
+        <div class="header">
+            <div class="icon_i">
+                <svg fill="#fff" focusable="false" width="24" height="24" viewBox="0 0 24 24" class="YGy4X NMm5M"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"></path></svg>
+            </div>
+            <div class="title">
+                <h3>FE36(18h tối 3.5.7)</h3>
+                <h4>Frontend</h4>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="content_left meeting_info">
+                    <div class="top">
+                        <div class="icon_meet">
+                            <img src="/img/logo.png" alt="">
+                            <span>Meet</span>
+                        </div>
+                        <img src="/img/setting.svg" alt="">
+                    </div>
+                        <div class="button">
+                            <button type="button">Tham gia</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

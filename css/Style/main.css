@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80vw;
+    margin: 20px auto;
+}
+.container .header{
+    color: red;
+    text-align: center;
+}
+.container .header .logo{
+    background-position: center;
+}
+.container .main #nav_menu{
+    width: 60%;
+    margin: 0 auto;
+}
+.container .main #nav_menu ul{
+    list-style-type: none;
+    margin-left: 1.25em;
+    margin-bottom: 1em;
+}
+.container .main #nav_menu ul li{
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid red;
+    float: left;
+}
+.container .main #nav_menu ul a{
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 1em 2em ;
+    text-decoration: none;
+}
+.container .main #nav_menu ul a.current{
+    color: red;
+}
+.container .main #nav_menu ul a.lastItem{
+    border-right: none;
+}
+.container .main .ktpm{
+    width: 20%;
+    height: 60vh;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-radius: 5px;
+    float: left;
+    margin: auto 15px;
+    clear: both;
+   
+}
+.container .main .ktpm .text1{
+    color: white;
+    background-color: red;
+    width: 100%;
+    margin-top: 0;
+}
+.container .main .nodejs{
+    width: 20%;
+    height: 60vh;
+    margin: auto 15px;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-radius: 5px;
+    float: left;
+}
+.container .main .java{
+    width: 20%;
+    height: 60vh;
+    margin: auto 15px;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-radius: 5px;
+    float: left;
+}
+.container .main .backend{
+    width: 20%;
+    height: 60vh;
+    margin: auto 15px;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-radius: 5px;
+    float: left;
+}
